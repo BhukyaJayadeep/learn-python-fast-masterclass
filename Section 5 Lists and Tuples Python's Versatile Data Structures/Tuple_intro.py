@@ -4,6 +4,16 @@ budgie = "Nightflight", "Budgie", 1981
 imelda = "More Mayhem", "Emilda May", 2011
 metallica = "Ride the Lightning", "Metallica", 1984
 
-print(metallica)
-print(metallica[0])
+# print(metallica)
+# print(metallica[0])
 
+title, artist, year = metallica
+print(title)
+print(artist)
+print(year)
+
+table = ("Coffee table", 200,100,75,34.50)
+print(table[1]*table[2])
+
+name, length, width, height = table
+print(length*width)
